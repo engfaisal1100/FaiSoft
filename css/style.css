@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap');
+
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(135deg, #e6ecf7, #ffffff);
+  scroll-behavior: smooth;
+  color: #0d1b2a;
+}
+
+/* الهيدر */
+.navbar {
+  background: linear-gradient(to right, #1b0034, #004080, #0075ff);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 1.1rem;
+  padding: 1rem 0;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff !important;
+}
+
+.navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-menu .dropdown-item:hover {
+  text-decoration: underline;
+  color: #dbe9ff !important;
+}
+
+.dropdown-menu {
+  background-color:white;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu .dropdown-item {
+  color: #1b0034;
+  font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color:#0075ff;
+}
+
+/* الهيرو */
+header {
+  position: relative;
+  background: linear-gradient(to right, rgba(27, 0, 52, 0.85), rgba(0, 64, 128, 0.85), rgba(0, 117, 255, 0.85)), url('https://via.placeholder.com/1600x800?text=Digital+Marketing+%26+Software');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.hero-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.hero-wave svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+/* العناوين */
+.section-title {
+  font-size: 2.5rem;
+  color: #0075ff;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: #0075ff;
+  margin: 10px auto 0;
+}
+
+/* الشرائح */
+.swiper {
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 30px;
+  transition: transform 0.3s;
+}
+
+.swiper-slide:hover {
+  transform: scale(1.05);
+}
+
+/* أيقونات الخدمات */
+.icon-box {
+  font-size: 2.5rem;
+  color: #004080;
+  margin-bottom: 15px;
+}
+
+/* الأقسام */
+section {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+section:nth-child(even) {
+  background: #f5f8fc;
+}
+
+/* الصور */
+.gallery img {
+  cursor: pointer;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.02);
+}
+
+.modal-img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+/* الفوتر */
+footer {
+  background: linear-gradient(to right, #1b0034, #004080, #0075ff);
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+/* واتساب */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #0075ff;
+  color: white;
+  font-size: 28px;
+  padding: 15px 18px;
+  border-radius: 50%;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s;
+}
+
+.whatsapp-float:hover {
+  background-color: #00c851;
+  text-decoration: none;
+}
+
+/* أسهم التمرير */
+.scroll-arrow {
+  position: fixed;
+  right: 20px;
+  background-color: #0075ff;
+  color: white;
+  font-size: 22px;
+  padding: 10px 12px;
+  border-radius: 50%;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background 0.3s;
+  display: none;
+}
+
+#scrollDown {
+  bottom: 80px;
+}
+
+#scrollTop {
+  bottom: 140px;
+}
+
+.scroll-arrow:hover {
+  background-color: #004080;
+}
+
+/* زر عرض المزيد */
+.custom-more-btn {
+  color: #0075ff;
+  border-color: #0075ff;
+}
+
+.custom-more-btn:hover {
+  background-color: #0075ff;
+  color: #fff;
+  border-color: #0075ff;
+}
+
+/* رسائل النماذج */
+.loading, .error-message, .sent-message {
+  display: none;
+}
+
+/* ظل للنص */
+.text-shadow {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* انتقالات */
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.transition:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* عنوان مزخرف بـ SVG */
+.underline-svg {
+  display: block;
+  margin-top: 5px;
+  overflow: visible;
+}
+
+.underline-path {
+  stroke-dasharray: 160;
+  stroke-dashoffset: 160;
+  transition: stroke-dashoffset 2s ease;
+  stroke: #0075ff;
+}
+
+.underline-path.draw {
+  stroke-dashoffset: 0;
+}
+
+.section-title > .text-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.underline-svg {
+  display: block;
+  width: 150px;
+  height: 30px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+
+      #loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    z-index: 99999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spinner {
+    border: 5px solid #ccc;
+    border-top: 5px solid #3182ce;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+    .project-img-wrapper {
+  width: 100%;
+  height: 250px; /* يمكنك تعديل الارتفاع حسب رغبتك */
+  overflow: hidden;
+  border-radius: 10px; /* اختياري: يجعل الزوايا دائرية */
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.05); /* تكبير بسيط عند التحويم */
+}
+
+    .hero-section {
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(13, 27, 42, 0.85), rgba(91, 192, 235, 0.85));
+    color: white;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    padding: 15px;
+  }
+  
+  .carousel-controls-custom {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .carousel-controls-custom button {
+    background-color: white;
+    color: #0d1b2a;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    bottom: -50px;
+    top: auto;
+    width: auto;
+  }
+
+  .carousel-item img {
+    border-radius: 1rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-card {
+  background: #fff;
+  border-radius: 20px;
+  text-align: center;
+  padding: 30px 20px;
+  transition: 0.4s;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  position: relative;
+}
+
+.service-card h5 {
+  color: #2c2c6c;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.icon-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  background: linear-gradient(to bottom right, #f8f8ff, #fff);
+  box-shadow: 0 8px 20px rgba(106, 17, 203, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle i {
+  font-size: 32px;
+  color: #6a11cb;
+  z-index: 1;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background: linear-gradient(to right, #ff4081, #f50057);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  transition: 0.3s ease;
+  opacity: 0.9;
+}
+
+.dot1 {
+  top: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dot2 {
+  bottom: -8px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.service-card.animate .dot1 {
+  animation: orbit1 2s linear infinite;
+}
+
+.service-card.animate .dot2 {
+  animation: orbit2 2s linear infinite;
+}
+
+@keyframes orbit1 {
+  0%   { transform: rotate(0deg) translateX(40px) rotate(0deg); }
+  100% { transform: rotate(360deg) translateX(40px) rotate(-360deg); }
+}
+
+@keyframes orbit2 {
+  0%   { transform: rotate(180deg) translateX(40px) rotate(180deg); }
+  100% { transform: rotate(540deg) translateX(40px) rotate(-180deg); }
+}
+.custom-modal {
+    max-width: 800px;
+    width: 90%;
+  }
+  .carousel-inner .carousel-item .img {
+    max-height: 250px;  /* ارتفاع صغير */
+    max-width: 100%;
+    width: auto;
+    margin: 0 auto;
+    object-fit: contain;
+    display: block;
+  }
+  
+  .service-card {
+    background-color: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(106, 17, 203, 0.3);
+  }
+  /* دائرة الأيقونة */
+  .icon-circle i {
+    display: inline-block;
+  }
+  
+.project-img-wrapper {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* يحافظ على نسبة العرض إلى الارتفاع */
+  overflow: hidden;
+  background-color: #f8f9fa; /* لون خلفية خفيف أثناء التحميل */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.project-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* لعرض الصورة كاملة بدون قص */
+  transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.03);
+}
+
+  .modal-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* أو أقل حسب الذوق */
+    background-color: #f8f8f8;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .modal-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+    .pagination {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      justify-content: flex-start;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      margin-top: 30px;
+      scrollbar-width: thin;
+    }
+    .pagination::-webkit-scrollbar {
+      height: 8px;
+    }
+    .pagination::-webkit-scrollbar-thumb {
+      background-color: #ccc;
+      border-radius: 4px;
+    }
+    .pagination .page-item {
+      flex: 0 0 auto;
+    }
+   
+    
