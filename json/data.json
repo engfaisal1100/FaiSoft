@@ -1,0 +1,325 @@
+{
+"setting": {
+"site_name": " فيسوفت | FaiSofte",
+"logo": "img/logo.png",
+"address": "اليمن- شارع المطار"
+    },
+
+"about": {
+  "title": "من هي FaiSoft | فيسوفت ؟",
+  "description": "FaiSoft هي شركة برمجيات وتسويق رقمي تقدم حلولاً متكاملة في تصميم وتطوير مواقع الويب، تحسين محركات البحث (SEO)، إدارة الحملات الإعلانية، التسويق عبر الإنترنت، تصميم الهويات البصرية، وخدمات الاستضافة. نساعدك على بناء حضور رقمي فعّال يعزز نمو أعمالك ويواكب متغيرات السوق الحديثة.",
+  "image": "img/about-us.svg"
+},
+    
+"features": {
+  "title": "رعاية واهتمام لا يُضاهى",
+  "description": "نضع عملاءنا في صميم كل ما نقوم به، حيث نولي اهتمامًا بالغًا بتفاصيل احتياجاتهم التقنية والتسويقية. نعمل بشغف واحترافية عالية لتقديم حلول مخصصة ترتقي بتجربتهم وتحقق تطلعاتهم، لأن نجاحهم هو جوهر نجاحنا."
+},
+    
+"support":{
+      "title": "دعم فني متواصل",
+      "description": "نوفر دعماً فنياً مستمراً عبر المحادثة الفورية، البريد الإلكتروني، أو صفحة الدعم الفني، لضمان استمرارية أعمالك دون انقطاع.",
+        "image": "img/support-imge.svg"
+    },
+"text_hero": {
+    "title": "الخطوة التالية لتطوير أعمالك الرقمية",
+    "description": "عزّز تواجدك  مع",
+    "name": "FaiSoft | فيسوفت"
+},
+    
+
+    "contact": {
+        "phone_one": "967779289621",
+        "phone_wat": "967779289621",
+        "location": "اليمن-شارع المطار",
+        "working_hours": "الساعة 7:00 صباحا الى الساعة 10:00 مساءمساء",
+        "email": "examplee@gmail.com"
+    },
+"services": [
+  {
+    "id": 1,
+    "title": "تصميم وتطوير مواقع الويب",
+    "description": "نصمم ونطور مواقع ويب احترافية ومتجاوبة باستخدام أحدث التقنيات، بما يتناسب مع هوية نشاطك التجاري ويوفر تجربة مستخدم مميزة.",
+    "icon": "<i class=\"fas fa-laptop-code\"></i>"
+  },
+  {
+    "id": 2,
+    "title": "تحسين محركات البحث (SEO)",
+    "description": "نُحسّن ظهور موقعك في نتائج بحث Google من خلال تحليل الكلمات المفتاحية، تحسين السرعة، بنية الروابط، والربط الداخلي والخارجي.",
+    "icon": "<i class=\"fas fa-search\"></i>"
+  },
+  {
+    "id": 3,
+    "title": "التسويق الإلكتروني والإعلانات",
+    "description": "نُدير حملات تسويق رقمي فعالة على منصات التواصل ومحركات البحث لزيادة الزيارات وتحقيق نتائج ملموسة لأعمالك.",
+    "icon": "<i class=\"fas fa-bullhorn\"></i>"
+  },
+  {
+    "id": 4,
+    "title": "تصميم واجهات المستخدم وتجربة المستخدم (UI/UX)",
+    "description": "نُقدم تصاميم مبتكرة لواجهات المستخدم وتجربة استخدام سهلة وجذابة تساهم في تحسين تفاعل الزوار وزيادة التحويلات.",
+    "icon": "<i class=\"fas fa-pencil-ruler\"></i>"
+  },
+  {
+    "id": 5,
+    "title": "استضافة المواقع وخدمات السيرفر",
+    "description": "نوفر خدمات استضافة آمنة وسريعة لمواقعك الإلكترونية مع دعم فني مستمر وضمان استقرار الأداء.",
+    "icon": "<i class=\"fas fa-server\"></i>"
+  },
+  {
+    "id": 6,
+    "title": "الهوية البصرية وتصميم الشعارات",
+    "description": "نساعدك على بناء علامة تجارية قوية من خلال تصميم الشعار، البروفايل، والألوان الموحدة التي تعبر عن نشاطك.",
+    "icon": "<i class=\"fas fa-paint-brush\"></i>"
+  }
+],
+
+"advantages": [
+    {
+    "id": 1,
+    "title": "الدعم الفني",
+    "description": "فريق دعم متخصص لمساعدتك في أي وقت وضمان استمرارية موقعك.",
+    "icon": "<i class=\"fas fa-headset\"></i>"
+  },
+  {
+    "id": 2,
+    "title": "السرعة",
+    "description": "نضمن تحميل سريع للموقع وتحسين تجربة المستخدم باستخدام تقنيات الأداء الحديثة.",
+    "icon": "<i class=\"fas fa-tachometer-alt\"></i>"
+  },
+  {
+    "id": 3,
+    "title": "الحماية",
+    "description": "نستخدم بروتوكولات أمان قوية وتحديثات دورية لحماية موقعك وبيانات عملائك.",
+    "icon": "<i class=\"fas fa-shield-alt\"></i>"
+  },
+  {
+    "id": 4,
+    "title": "الأداء",
+    "description": "نحسّن أداء الموقع لتحقيق أفضل نتائج في السرعة والاستجابة والموثوقية.",
+    "icon": "<i class=\"fas fa-chart-line\"></i>"
+  },
+  {
+    "id": 5,
+    "title": "التوافق",
+    "description": "تصميم متجاوب بالكامل يعمل بسلاسة على جميع الأجهزة والمتصفحات.",
+    "icon": "<i class=\"fas fa-mobile-alt\"></i>"
+  },
+  {
+    "id": 6,
+    "title": "قابلية التطوير",
+    "description": "هيكلية برمجية مرنة تتيح إضافة ميزات وتوسيع المشروع مستقبلًا بسهولة.",
+    "icon": "<i class=\"fas fa-code-branch\"></i>"
+  },
+  {
+    "id": 7,
+    "title": "متعدد اللغات",
+    "description": "ندعم إنشاء مواقع بلغات متعددة لتوسيع قاعدة جمهورك حول العالم.",
+    "icon": "<i class=\"fas fa-language\"></i>"
+  }
+],
+  "works": [
+{
+ "title": "موقع مؤسسة مقاولات عامة - نجران",
+"link": "https://dhandekor.kesug.com",
+  "images":
+ [
+  "https://i.postimg.cc/289324hj/image.jpg",
+"https://i.postimg.cc/Y2zj5cKS/screencapture-dhandekor-kesug-2025-06-14-17-51-38.png",
+"https://i.postimg.cc/44bfCG9S/screencapture-dhandekoryaid-kesug-admin-index-php-2025-06-15-18_02_58.png",
+"https://i.postimg.cc/6pTtGG1k/screencapture-dhandekoryaid-kesug-admin-index-php-2025-06-15-18_03_27.png",
+"https://i.postimg.cc/hPDScY8P/screencapture-dhandekoryaid-kesug-admin-index-php-2025-06-15-18_03_41.png",
+"https://i.postimg.cc/rm6KkMwD/screencapture-dhandekor-kesug-about-2025-06-14-17-51-56.png",
+"https://i.postimg.cc/DwZWQxNw/screencapture-dhandekor-kesug-contact-2025-06-14-17-52-17.png",
+"https://i.postimg.cc/3w0dVdYM/screencapture-dhandekor-kesug-projects-2025-06-14-17-52-08.png",
+"https://i.postimg.cc/Kjxj1fLF/screencapture-dhandekor-kesug-service-details-2025-06-14-17-52-31.png"
+]
+},
+{
+  "title": "موقع تعريفي فني دهانات وديكورات الرياض",
+  "link": "https://dhandekoryaid.kesug.com",
+  "images":
+ [
+"https://i.postimg.cc/pL9r7pJf/image.jpg",
+"https://i.postimg.cc/44bfCG9S/screencapture-dhandekoryaid-kesug-admin-index-php-2025-06-15-18_02_58.png",
+"https://i.postimg.cc/6pTtGG1k/screencapture-dhandekoryaid-kesug-admin-index-php-2025-06-15-18_03_27.png",
+"https://i.postimg.cc/hPDScY8P/screencapture-dhandekoryaid-kesug-admin-index-php-2025-06-15-18_03_41.png",
+"https://i.postimg.cc/ZRFKzNQQ/screencapture-dhandekoryaid-kesug-about-2025-06-14-18-01-35.png",
+"https://i.postimg.cc/T3FPVfmt/screencapture-dhandekoryaid-kesug-contact-2025-06-14-18-01-23.png",
+"https://i.postimg.cc/fbdR5pfD/screencapture-dhandekoryaid-kesug-motivation-2025-06-14-18-01-10.png",
+"https://i.postimg.cc/Y9wqPRdg/screencapture-dhandekoryaid-kesug-portfolio-2025-06-14-18-00-58.png"
+]
+},
+{
+  "title":"موقع مطعم الزمن القديم لطلب الوجبات اونلاين ",
+  "link": "https://zamanrestaurant.netlify.app/",
+  "images": [
+    "https://i.postimg.cc/nhbJGNZj/image.jpg",
+    "https://i.postimg.cc/nhbJGNZj/image.jpg"
+    ]
+},
+{
+  "title": "موقع شخصي لأبو نواف للدهانات والديكورات",
+  "link": "https://abunawaf.netlify.app",
+  "images": [
+    "https://i.postimg.cc/wTQj247R/image.jpg",
+    "https://i.postimg.cc/wTQj247R/image.jpg"
+    ]
+},
+{
+  "title": "موقع دهانات وديكورات الرياض",
+  "link": "https://dhandekorriyadh.netlify.app/",
+  "images": [
+    "https://i.postimg.cc/ZKjPvcF4/image.jpg",
+    "https://i.postimg.cc/ZKjPvcF4/image.jpg"
+    ]
+},
+{
+  "title": "موقع جمعية ود الخيرية",
+  "link": "https://postimg.cc/gallery/Y0CKBhg",
+  "images": [
+    "https://i.postimg.cc/gk2nVMwB/image.jpg",
+    "https://i.postimg.cc/SRS9BkgW/screencapture-localhost-wod-project-Wod-project-Visitor-interfaces-2025-06-14-18-19-15.png",
+    "https://i.postimg.cc/76y0Ng7t/screencapture-localhost-wod-project-Wod-project-admin-index-php-2025-06-14-18-20-50.png",
+    "https://i.postimg.cc/L8nt442D/screencapture-localhost-wod-project-Wod-project-admin-index-php-2025-06-14-18-21-20.png",
+    "https://i.postimg.cc/xdmLHskb/screencapture-localhost-wod-project-Wod-project-admin-index-php-2025-06-14-18-21-58.png",
+    "https://i.postimg.cc/zG6nymfr/screencapture-localhost-wod-project-Wod-project-admin-index-php-2025-06-14-18-22-48.png",
+    "https://i.postimg.cc/1tc67frm/screencapture-localhost-wod-project-Wod-project-Visitor-interfaces-employees-login-emp-php-2025-06-1.png"
+  ]
+},
+
+{
+  "title": "منصة إدارة أعمال التدريب",
+  "link": "https://postimg.cc/gallery/tHRQwFk",
+  "images": [
+    "https://i.postimg.cc/VNkywDfT/1739809049996.jpg",
+  "https://i.postimg.cc/VNkywDfT/1739809049996.jpg","https://i.postimg.cc/4xv2mt2g/trashed-1739992787-screencapture-rct-tr-index-php-2025-01-17-23-55-26.png",
+  "https://i.postimg.cc/rp8nWm7t/trashed-1739992787-screencapture-rct-tr-index-php-2025-01-17-23-55-58.png",
+  "https://i.postimg.cc/3wnLZhHf/trashed-1739992787-screencapture-rct-tr-index-php-2025-01-17-23-57-08.png",
+  "https://i.postimg.cc/4dyWL0ff/trashed-1739992787-screencapture-rct-tr-index-php-2025-01-17-23-58-13.png",
+  "https://i.postimg.cc/4dyWL0ff/trashed-1739992787-screencapture-rct-tr-index-php-2025-01-17-23-58-13.png",
+  "https://i.postimg.cc/9MkJvB0G/IMG.png",
+  "https://i.postimg.cc/j2JZKJnB/IMG.png",
+  "https://i.postimg.cc/K4SQYvnj/screencapture-rct-tr-index-php-2025-01-17-23-56-29.png"
+  ]
+},
+{
+  "title": "موقع تعريفي لشركة برمجية",
+  "link": "https://afresite.github.io/afre-site/",
+  "images": [
+    "https://i.postimg.cc/d3YMCnBq/1739802552836.jpg",
+    "https://i.postimg.cc/d3YMCnBq/1739802552836.jpg"]
+},
+{
+  "title": "لوحة تحكم منصة المتدربين للمؤسسة العامة",
+  "link": "https://engfaisal101.github.io/control_panel/",
+  "images": [
+    "https://i.postimg.cc/nrdR0kxb/1737405831614.jpg",
+    "https://i.postimg.cc/nrdR0kxb/1737405831614.jpg"]
+},
+{
+  "title": "منصة متكاملة لإدارة أعمال المتدربين",
+  "link": "https://engfaisal101.github.io/Technical-Foundation-Project/",
+  "images": [
+    "https://i.postimg.cc/mDy6F46r/1737405830471.jpg",
+    "https://i.postimg.cc/d3YMCnBq/1739802552836.jpg",
+  "https://i.postimg.cc/mDy6F46r/1737405830471.jpg",
+  "https://i.postimg.cc/JzjRRWyg/‏‏لقطة_الشاشة_(231).png",
+  "https://i.postimg.cc/3JsKMwwm/‏‏لقطة_الشاشة_(230).png",
+  "https://i.postimg.cc/m2zb69TT/‏‏لقطة_الشاشة_(232).png",
+  "https://i.postimg.cc/bv8pJFkv/‏‏لقطة_الشاشة_(233).png",
+  "https://i.postimg.cc/brGjWXcm/‏‏لقطة_الشاشة_(235).png",
+  "https://i.postimg.cc/x8WSSs9n/‏‏لقطة_الشاشة_(236).png"
+  ]
+},
+{
+  "title": "موقع تعريفي لمؤسسة التعاون سوفت ",
+  "link": "https://engfaisal101.github.io/Altowan_Soft/",
+  "images": [
+    "https://i.postimg.cc/3J4Cs7CD/Altown-company.jpg",
+    "https://i.postimg.cc/3J4Cs7CD/Altown-company.jpg"]
+},
+{
+  "title": "موقع أثاث منزلي مخصص",
+  "link": "https://i.postimg.cc/90YrnZdc/image.jpg",
+  "images": [
+    "https://i.postimg.cc/90YrnZdc/image.jpg",
+    "https://i.postimg.cc/90YrnZdc/image.jpg"]
+},
+{
+  "title": "موقع مكتبة إلكترونية جامعية",
+  "link": "https://i.postimg.cc/4NsH5g2g/lib.jpg",
+  "images": [
+    "https://i.postimg.cc/4NsH5g2g/lib.jpg",
+    "https://i.postimg.cc/4NsH5g2g/lib.jpg"]
+},
+{
+  "title": "تجربة مع JavaScript API وFirebase",
+  "link": "https://engfaisal101.github.io/project_homes/index.html",
+  "images": [
+    "https://i.postimg.cc/zXrGrFTS/1734464430874.jpg",
+    "https://i.postimg.cc/zXrGrFTS/1734464430874.jpg"]
+},
+{
+  "title": "موقع حلول الأسئلة وتبادل المعرفة",
+"link": "https://i.postimg.cc/59FX1tT1/q.jpg",
+  "image": "https://i.postimg.cc/59FX1tT1/q.jpg",
+  "images": [
+    "https://i.postimg.cc/59FX1tT1/q.jpg",
+    "https://i.postimg.cc/59FX1tT1/q.jpg"]
+},
+{
+  "title": "منصة تعليمية خاصة لتدريس الكيمياء",
+  "link": "https://i.postimg.cc/sxMbhqFG/edu-free.jpg",
+  "images": [
+    "https://i.postimg.cc/sxMbhqFG/edu-free.jpg",
+    "https://i.postimg.cc/sxMbhqFG/edu-free.jpg"]
+},
+{
+  "title": "موقع عقارات للإيجار والبيع",
+  "link": "https://i.postimg.cc/d1mbFr2D/byte.jpg",
+  "images": [
+    "https://i.postimg.cc/d1mbFr2D/byte.jpg",
+    "https://i.postimg.cc/d1mbFr2D/byte.jpg"]
+},
+{
+  "title": "موقع دردشة جماعية وتعارف",
+  "link": "https://i.postimg.cc/XvFM2TXf/chat.jpg",
+  "images": [
+    "https://i.postimg.cc/XvFM2TXf/chat.jpg",
+    "https://i.postimg.cc/XvFM2TXf/chat.jpg"]
+}
+  ],
+
+    "carousel": [
+        {
+            "image": "images\/hero_6834b8f3d0ebe.jpg"
+        },
+        {
+            "image": "images\/hero_6834b8f3d12cb.jpg"
+        },
+        {
+            "image": "images\/hero_6834b8f3d12cb.jpg"
+        }
+    ],
+
+   "contact_links": [
+  {
+    "platform": "Facebook",
+    "url": "https://facebook.com/engfaisal101"
+  },
+  {
+    "platform": "Twitter",
+    "url": "https://twitter.com/engfaisal101"
+  },
+  {
+    "platform": "LinkedIn",
+    "url": "https://www.linkedin.com/in/engfaisal101"
+  },
+  {
+    "platform": "GitHub",
+    "url": "https://github.com/engfaisal101"
+  }
+]
+
+}
